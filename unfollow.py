@@ -42,7 +42,7 @@ class InstaUnfollowers:
     def unfollow(self):
         global response
         User = self.driver.find_element_by_xpath("html/body/div/section/nav/div[2]/div/div/div[2]/input")
-        custom_list = ['<add all usernames here>', '<you can add how much you want!>'] # usernames to unfollow
+        custom_list = ['<add all usernames here>', '<you can add how many you want!>'] # usernames to unfollow
 
         for i, user in enumerate(custom_list):
             try:
